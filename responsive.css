@@ -1,0 +1,685 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*
+	* ====================================
+	*  Header One
+	* ====================================
+	*/
+	.header-one .header-nav .logo {
+		margin: 5px 20px 0 0;
+	}
+	.header-one .header-nav .menu>ul>li>a {
+		padding: 8px 15px;
+	}
+
+
+	/*
+	* ====================================
+	*  About Section One
+	* ====================================
+	*/
+	#about-section-one .right-side p {
+		padding-right: 20px;
+	}
+	#about-section-one .right-side .partners-logo-wrpr ul li {
+		width: 80px;
+	}
+
+
+	/*
+	* ====================================
+	*  Our Thinking Section One
+	* ====================================
+	*/
+	#our-thinking-section-one .right-side .our-thinking {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	#our-thinking-section-one .right-side {
+		padding: 60px 0 60px 25px;
+	}
+	#our-thinking-section-one:before {
+		width: 25%;
+	}
+	#our-thinking-section-one .left-side {
+		left: 25%;
+		width: 350px;
+	}
+
+
+	/*
+	* ====================================
+	*  Our Thinking Section Two
+	* ====================================
+	*/
+	#our-thinking-section-two .left-side-inner {
+		margin: 80px 0 60px 0;
+		padding: 20px 30px;
+	}
+	#our-thinking-section-two .left-side .our-thinking {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	#our-thinking-section-two .right-side {
+		right: 5%;
+		width: 35%;
+	}
+
+
+	/*
+	* ====================================
+	*  Fun Fact Section One
+	* ====================================
+	*/
+	#fun-fact-section-one .number {
+		font-size: 40px;
+	}
+
+
+	/*
+	* ====================================
+	*  Pricing Table Section One
+	* ====================================
+	*/
+	#pricing-table-section-one .pricing-table-item {
+		padding: 15px 15px 55px;
+	}
+	#pricing-table-section-one .pricing-table-item h3 {
+		font-size: 20px;
+	}
+	#pricing-table-section-one .pricing-table-item .price {
+		font-size: 25px;
+	}
+
+
+	/*
+	* ====================================
+	*  Sidebar
+	* ====================================
+	*/
+	.sidebar-widget {
+		padding: 25px 15px;
+	}
+	.sidebar-widget .sidebar-single-post .image-box {
+		width: 50px;
+	}
+	.sidebar-widget .sidebar-single-post .contents {
+		width: calc(100% - 50px);
+		padding-left: 10px;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	/*
+	* ===============================
+	*  Defult CSS 
+	* ===============================
+	*/
+	.section-header-primary {
+		margin-bottom: 35px;
+	}
+	.video-modal-primary .close {
+		right: 0;
+		top: -40px;
+	}
+
+
+	/*
+	* ===============================
+	*  Typograpgy
+	* ===============================
+	*/
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+
+
+	/*
+	* ====================================
+	*  Header One
+	* ====================================
+	*/
+	.header-one .top-bar {
+		font-size: 10px;
+		padding: 10px 0;
+	}
+	.header-one .help-text {
+		display: none;
+	}
+	.header-one .mobile-menu {
+		display: block;
+	}
+	.header-one .header-nav {
+		padding: 10px 0;
+	}
+	.header-one .header-nav .menu {
+		display: none;
+	}
+	.header-one .header-nav .logo {
+		margin: 3px 15px 0 0;
+		max-width: 120px;
+	}
+	.header-one .slicknav_menu {
+		background: transparent;
+		padding: 0;
+	}
+	.header-one .slicknav_btn {
+		background-color: #b89788;
+	}
+	.header-one .slicknav_nav {
+		background: #333333;
+	}
+	.header-one .slicknav_nav a:hover {
+		background: #b89788;
+		color: #ffffff;
+	}
+	.header-one .header-nav .search-icon {
+		margin-left: 5px;
+	}
+
+
+	/*
+	* ====================================
+	*  Hero Section One
+	* ====================================
+	*/
+	#hero-section-one {
+		background: url("../img/hero/1-mob.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+
+	/*
+	* ====================================
+	*  Hero Section Two
+	* ====================================
+	*/
+	#hero-section-two .hero-slider-item.bg-two {
+		background-image: url("../img/hero/1-mob.jpg");
+	}
+	#hero-section-two .owl-prev {
+		left: 15px;
+	}
+	#hero-section-two .owl-next {
+		right: 15px;
+	}
+
+
+	/*
+	* ====================================
+	*  Our Partner Area
+	* ====================================
+	*/
+	.our-partner-area {
+		padding: 10px 0;
+	}
+	.our-partner-area .small-secondary {
+		margin: 0 0 5px;
+	}
+	.our-partner-area ul li {
+		width: 16.6666%;
+		float: left;
+		line-height: 30px;
+		padding-right: 10px;
+	}
+
+
+	/*
+	* ====================================
+	*  About Section One
+	* ====================================
+	*/
+	#about-section-one {
+		padding: 60px 0;
+	}
+	#about-section-one .left-side {
+		max-width: 400px;
+		margin: 0 auto 50px;
+	}
+	#about-section-one .left-side .img-wrpr img {
+		width: 80%;
+	}
+	#about-section-one .right-side p {
+		padding-right: 0;
+	}
+
+
+	/*
+	* ====================================
+	*  About Section Two
+	* ====================================
+	*/
+	#about-section-two {
+		padding: 60px 0;
+	}
+	#about-section-two .left-side {
+		max-width: 400px;
+		margin: 0 auto 50px;
+	}
+
+
+	/*
+	* ====================================
+	*  Services Section One
+	* ====================================
+	*/
+	#services-section-one {
+		padding: 60px 0;
+	}
+	#services-section-one .service-item {
+		margin: 0 auto 50px;
+	}
+	#services-section-one .service-item {
+		background-color: #b89788;
+		background-image: url("../img/pattern/2.png");
+		background-repeat: no-repeat;
+		background-position: top right;
+		background-size: contain;
+	}
+	#services-section-one .service-item a {
+		opacity: 1;
+		visibility: visible;
+		margin-left: 0;
+	}
+
+
+	/*
+	* ====================================
+	*  Services Section Two
+	* ====================================
+	*/
+	#services-section-two {
+		padding: 60px 0;
+	}
+	#services-section-two .service-item {
+		margin: 0 auto 50px;
+		background-color: #b89788;
+	}
+
+
+	/*
+	* ====================================
+	*  Single Service Section
+	* ====================================
+	*/
+	#single-service-section {
+		padding: 60px 0 50px;
+	}
+	#single-service-section img {
+		margin-bottom: 30px;
+	}
+
+
+	/*
+	* ====================================
+	*  Our Thinking Section One
+	* ====================================
+	*/
+	#our-thinking-section-one .right-side {
+		padding: 60px 0;
+	}
+	#our-thinking-section-one:before,
+	#our-thinking-section-one .left-side {
+		display: none;
+	}
+
+
+	/*
+	* ====================================
+	*  Our Thinking Section Two
+	* ====================================
+	*/
+	#our-thinking-section-two .left-side {
+		width: 80%;
+		margin: 0 10%;
+	}
+	#our-thinking-section-two .left-side-inner {
+		margin: 80px 0 60px 0;
+		padding: 15px 25px;
+	}
+	#our-thinking-section-two .left-side .our-thinking {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	#our-thinking-section-two .right-side {
+		position: inherit;
+		bottom: inherit;
+		right: inherit;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+
+	/*
+	* ====================================
+	*  Fun Fact Section One
+	* ====================================
+	*/
+	#fun-fact-section-one {
+		padding: 60px 0;
+	}
+	#fun-fact-section-one .col-3 {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	#fun-fact-section-one .number {
+		font-size: 18px;
+	}
+	#fun-fact-section-one .label {
+		font-size: 12px;
+		line-height: 1.2em;
+	}
+
+
+	/*
+	* ====================================
+	*  Testimonial Section One
+	* ====================================
+	*/
+	#testimonial-section-one {
+		padding: 60px 0;
+	}
+	#testimonial-section-one p {
+		font-size: 20px;
+		margin: 0 auto 35px;
+	}
+
+
+	/*
+	* ====================================
+	*  Testimonial Section Two
+	* ====================================
+	*/
+	#testimonial-section-two {
+		padding: 60px 0;
+	}
+
+
+	/*
+	* ====================================
+	*  Our Approach Section
+	* ====================================
+	*/
+	#our-approach-section {
+		padding: 60px 0;
+	}
+	#our-approach-section .left-side {
+		padding-right: 0;
+	}
+	#our-approach-section .right-side {
+		margin-top: 50px;
+	}
+
+
+	/*
+	* ====================================
+	*  Team Section One
+	* ====================================
+	*/
+	#team-section-one {
+		padding: 60px 0 10px;
+	}
+	#team-section-one .team-item {
+		max-width: 250px;
+		margin: 0 auto 50px;
+	}
+	#team-section-one .team-item p {
+		margin-bottom: 10px;
+	}
+
+
+	/*
+	* ====================================
+	*  Success Section One
+	* ====================================
+	*/
+	#success-section-one {
+		padding: 60px 0 20px;
+	}
+	#success-section-one .success-steps-item {
+		margin-bottom: 20px;
+	}
+	#success-section-one .bg-image {
+		display: none;
+	}
+
+
+	/*
+	* ====================================
+	*  Blog Section One
+	* ====================================
+	*/
+	#blog-section-one {
+		padding: 60px 0 10px;
+	}
+	#blog-section-one .blog-item {
+		max-width: 350px;
+		margin: 0 auto 50px;
+	}
+
+
+	/*
+	* ====================================
+	*  Single Post Section
+	* ====================================
+	*/
+	#single-post-section {
+		padding: 60px 0 10px;
+	}
+	#single-post-section .single-post .author-image {
+		width: 60px;
+		margin: 0 0 10px 0;
+	}
+	#single-post-section .single-post .contents {
+		width: 100%;
+	}
+	#single-post-section .single-post .contents .author-info h4 {
+		margin-bottom: 5px;
+	}
+	#single-post-section .single-post .comments-box .media img {
+		max-width: 60px;
+	}
+	#single-post-section .single-post .comments-box .comment {
+		margin-bottom: 25px;
+	}
+
+
+	/*
+	* ====================================
+	*  Get Started Section One
+	* ====================================
+	*/
+	#get-started-section-one {
+		padding: 60px 0 0;
+	}
+
+
+	/*
+	* ====================================
+	*  Get Started Section Two
+	* ====================================
+	*/
+	#get-started-section-two {
+		padding: 60px 0;
+	}
+
+
+	/*
+	* ====================================
+	*  Success Section Two
+	* ====================================
+	*/
+	#success-section-two {
+		padding: 60px 0 10px;
+	}
+	#success-section-two .success-steps-item {
+		max-width: 300px;
+		margin: 0 auto 50px;
+	}
+	#success-section-two .success-steps-item .icon {
+		margin-bottom: 15px;
+	}
+
+
+	/*
+	* ====================================
+	*  Pricing Table Section One
+	* ====================================
+	*/
+	#pricing-table-section-one {
+		padding: 60px 0 10px;
+	}
+	#pricing-table-section-one .pricing-table-item {
+		margin-bottom: 50px;
+		height: inherit;
+	}
+
+
+	/*
+	* ====================================
+	*  Contact Section
+	* ====================================
+	*/
+	#contact-section {
+		padding: 60px 0;
+	}
+	#contact-section .contact-item {
+		padding: 35px 5px 25px;
+		margin-bottom: 50px;
+		height: inherit;
+	}
+	#contact-section .contact-map-form {
+		margin-top: 25px;
+	}
+	#contact-section #googleMap {
+		margin-top: 50px;
+	}
+
+
+	/*
+	* ====================================
+	*  Page Header Section
+	* ====================================
+	*/
+	#page-header-section {
+		padding: 110px 0 40px;
+	}
+
+
+	/*
+	* ====================================
+	*  Footer Area
+	* ====================================
+	*/
+	.footer-one .footer-top {
+		padding: 60px 0 0;
+	}
+	.footer-one .footer-top .footer-logo,
+	.footer-one .footer-top h3 {
+		margin-bottom: 15px;
+	}
+	.footer-one .footer-item {
+		margin-bottom: 25px;
+	}
+	.footer-one .footer-top .links li {
+		margin-bottom: 5px;
+	}
+	.footer-one .footer-bottom .left-side,
+	.footer-one .footer-bottom .right-side {
+		text-align: center;
+	}
+	.footer-one .footer-bottom .right-side {
+		margin-top: 10px;
+	}
+	.footer-one .footer-bottom .right-side ul li {
+		margin: 0 8px;
+	}
+	.footer-one .footer-bottom {
+		padding: 15px 0 20px;
+	}
+
+
+	/*
+	* ====================================
+	*  Scroll To Top
+	* ====================================
+	*/
+	#scroll-to-top {
+		bottom: 5px;
+		font-size: 30px;
+	}
+	#scroll-to-top.active {
+		-webkit-transform: translateY(-20px);
+		-ms-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/*
+	* ===============================
+	*  Defult CSS 
+	* ===============================
+	*/
+	.video-modal-primary .close {
+		right: -30px;
+		top: -34px;
+	}
+
+
+	/*
+	* ===============================
+	*  Typograpgy
+	* ===============================
+	*/
+	h1 {
+		font-size: 35px;
+	}
+
+
+	/*
+	* ====================================
+	*  Header One
+	* ====================================
+	*/
+	.header-one .top-bar {
+		font-size: 12px;
+	}
+
+
+	/*
+	* ====================================
+	*  Fun Fact Section One
+	* ====================================
+	*/
+	#fun-fact-section-one .number {
+		font-size: 30px;
+	}
+
+	
+	/*
+	* ====================================
+	*  Testimonial Section One
+	* ====================================
+	*/
+	#testimonial-section-one p {
+		font-size: 25px;
+	}
+}
